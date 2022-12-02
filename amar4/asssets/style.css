@@ -1,0 +1,39 @@
+nav{
+    background-color: rgb(92, 75, 53);
+}
+.flex-container{
+    display: flex;
+}
+.left-menu{
+    flex: 20%
+}
+.right-menu{
+    flex: 80%
+}
+nav ul{
+    align-items: flex-end;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+nav ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: deeppink
+}
+.dropdown .dropdown-list{
+    position: absolute;
+   /* background-color: aquamarine;*/
+    width: 100px;
+    left: 540px;
+    display: block;
+box-shadow: 0px 8px 16px 0px rgba(225, 0, 0, 8);
+/* z-index: 1; */
+display: none;
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+
